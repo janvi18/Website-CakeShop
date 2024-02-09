@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        /* Add some basic styling for the card */
+        .card {
+            width: 300px;
+            border: 1px solid #ccc;
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            margin: 20px;
+            display: inline-block; /* Make cards inline to be in a horizontal row */
+        }
+
+        /* Style the card header */
+        .card-header {
+            background-color: #f0f0f0;
+            padding: 10px;
+            text-align: center;
+        }
+
+        /* Style the card content */
+        .card-content {
+            padding: 20px;
+        }
+
+        /* Style the text outside the card */
+        .text-outside-card {
+            margin-top: 20px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- First Card -->
+    <div class="card">
+        <div class="card-header">
+            <h2>Card 1</h2>
+        </div>
+        <div class="card-content">
+            <img src="image1.jpg" alt="Card Image 1" style="width: 100%; height: auto;">
+            <p>Content for Card 1.</p>
+        </div>
+    </div>
+
+    <!-- Second Card -->
+    <div class="card">
+        <div class="card-header">
+            <h2>Card 2</h2>
+        </div>
+        <div class="card-content">
+            <img src="image2.jpg" alt="Card Image 2" style="width: 100%; height: auto;">
+            <p>Content for Card 2.</p>
+        </div>
+    </div>
+
+    <!-- Text outside the cards -->
+    <div class="text-outside-card">
+        <p>This text is outside the cards.</p>
+    </div>
+
+</body>
+</html>
