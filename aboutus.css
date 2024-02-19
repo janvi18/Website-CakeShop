@@ -1,0 +1,122 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #FFF8E7;
+}
+p{
+    color: #5C4033;
+    margin-left: 10px;
+
+}
+.footer {
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+    align-content: center;
+}
+.header, .footer {
+    background-color: #F9D773;
+    color: #000000;
+}
+
+
+
+h1{
+    color: #D32F2F;
+    margin-left: 10px;
+    text-align: center;
+}z
+
+form {
+    background-color: #E9D5FF;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 8px;
+}
+
+input[type="text"], input[type="email"], textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 5px;
+}
+
+input[type="submit"] {
+    background-color: #D32F2F;
+    color: #FFF8E7;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #FFD1DC;
+    color: #5C4033;
+}
+
+/* Our Team */
+.card {
+    width: 350px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+    display: inline-block;
+    /* Make cards inline to be in a horizontal row */
+}
+
+.card-header {
+    background-color: #f0f0f0;
+    padding: 10px;
+    text-align: center;
+}
+
+.card-content {
+    padding: 20px;
+}
+
+.card2 {
+    width: 350px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+    display: inline-block;
+    /* Make cards inline to be in a horizontal row */
+}
+
+.card-header2 {
+    background-color: #f0f0f0;
+    padding: 10px;
+    text-align: center;
+}
+
+.card-content2 {
+    padding: 20px;
+}
+
+.card3 {
+    width: 350px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+    display: inline-block;
+    /* Make cards inline to be in a horizontal row */
+}
+
+.card-header3 {
+    background-color: #f0f0f0;
+    padding: 10px;
+    text-align: center;
+}
+
+.card-content3 {
+    padding: 20px;
+}
